@@ -1,7 +1,7 @@
 version: '1'
 services:
   webServicePruebas:
-    image: "320039626/webservice:1.0"
+    image: "320039626/webservice:1.1"
     ports:
       - "2424:3000"
     restart: "unless-stopped"

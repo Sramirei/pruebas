@@ -10,11 +10,10 @@ routes.get('/countries/:countryName', (req, res, next) => {
   const countryName = req.params.countryName
   const country = countries.find(country => country.countryName === countryName)
 
-  if (country.length === 0) {
-    res.send({ message: 'Not Found' }).statusCode(404)
+  if (country === undefined) {
     next('route')
   } else {
-    return res.json(country)
+    return res.json(country).end()
   }
 })
 
@@ -23,7 +22,7 @@ routes.get('/countries/:continentName', (req, res) => {
   const country = countries.filter(country => country.continentName === continentName)
 
   if (country.length === 0) {
-    res.send({ message: 'Not Found' }).statusCode(404)
+    res.json({ message: 'Not Found' })
   } else {
     res.json(country)
   }
@@ -33,7 +32,7 @@ routes.post('/countries', (req, res) => {
   const country = req.body
 
   if (country.countryName === '') {
-    return res.send({ message: 'required "countryName" field is missing' }).statusCode(204)
+    return res.send({ message: 'required "countryName" field is missing' }).status(304)
   }
 
   const newCountry = {
