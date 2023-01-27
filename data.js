@@ -39,19 +39,19 @@ const countries = [
     countryName: 'Anguilla',
     population: '13254',
     capital: 'The Valley',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Antigua and Barbuda',
     population: '86754',
     capital: "St. John's",
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Argentina',
     population: '41343201',
     capital: 'Buenos Aires',
-    continentName: 'South America'
+    continentName: 'South_America'
   },
   {
     countryName: 'Armenia',
@@ -63,7 +63,7 @@ const countries = [
     countryName: 'Aruba',
     population: '71566',
     capital: 'Oranjestad',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Australia',
@@ -87,7 +87,7 @@ const countries = [
     countryName: 'Bahamas',
     population: '301790',
     capital: 'Nassau',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Bahrain',
@@ -105,7 +105,7 @@ const countries = [
     countryName: 'Barbados',
     population: '285653',
     capital: 'Bridgetown',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Belarus',
@@ -123,7 +123,7 @@ const countries = [
     countryName: 'Belize',
     population: '314522',
     capital: 'Belmopan',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Benin',
@@ -135,7 +135,7 @@ const countries = [
     countryName: 'Bermuda',
     population: '65365',
     capital: 'Hamilton',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Bhutan',
@@ -147,13 +147,13 @@ const countries = [
     countryName: 'Bolivia',
     population: '9947418',
     capital: 'Sucre',
-    continentName: 'South America'
+    continentName: 'South_America'
   },
   {
     countryName: 'Bonaire',
     population: '18012',
     capital: 'Kralendijk',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Bosnia and Herzegovina',
@@ -171,7 +171,7 @@ const countries = [
     countryName: 'Brazil',
     population: '201103330',
     capital: 'Brasília',
-    continentName: 'South America'
+    continentName: 'South_America'
   },
   {
     countryName: 'British Indian Ocean Territory',
@@ -183,7 +183,7 @@ const countries = [
     countryName: 'British Virgin Islands',
     population: '21730',
     capital: 'Road Town',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Brunei',
@@ -225,7 +225,7 @@ const countries = [
     countryName: 'Canada',
     population: '33679000',
     capital: 'Ottawa',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Cape Verde',
@@ -237,7 +237,7 @@ const countries = [
     countryName: 'Cayman Islands',
     population: '44270',
     capital: 'George Town',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Central African Republic',
@@ -255,7 +255,7 @@ const countries = [
     countryName: 'Chile',
     population: '16746491',
     capital: 'Santiago',
-    continentName: 'South America'
+    continentName: 'South_America'
   },
   {
     countryName: 'China',
@@ -279,7 +279,7 @@ const countries = [
     countryName: 'Colombia',
     population: '47790000',
     capital: 'Bogotá',
-    continentName: 'South America'
+    continentName: 'South_America'
   },
   {
     countryName: 'Comoros',
@@ -297,7 +297,7 @@ const countries = [
     countryName: 'Costa Rica',
     population: '4516220',
     capital: 'San José',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Croatia',
@@ -309,13 +309,13 @@ const countries = [
     countryName: 'Cuba',
     population: '11423000',
     capital: 'Havana',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Curacao',
     population: '141766',
     capital: 'Willemstad',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Cyprus',
@@ -351,13 +351,13 @@ const countries = [
     countryName: 'Dominica',
     population: '72813',
     capital: 'Roseau',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Dominican Republic',
     population: '9823821',
     capital: 'Santo Domingo',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'East Timor',
@@ -369,7 +369,7 @@ const countries = [
     countryName: 'Ecuador',
     population: '14790608',
     capital: 'Quito',
-    continentName: 'South America'
+    continentName: 'South_America'
   },
   {
     countryName: 'Egypt',
@@ -381,7 +381,7 @@ const countries = [
     countryName: 'El Salvador',
     population: '6052064',
     capital: 'San Salvador',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Equatorial Guinea',
@@ -411,7 +411,7 @@ const countries = [
     countryName: 'Falkland Islands',
     population: '2638',
     capital: 'Stanley',
-    continentName: 'South America'
+    continentName: 'South_America'
   },
   {
     countryName: 'Faroe Islands',
@@ -441,7 +441,7 @@ const countries = [
     countryName: 'French Guiana',
     population: '195506',
     capital: 'Cayenne',
-    continentName: 'South America'
+    continentName: 'South_America'
   },
   {
     countryName: 'French Polynesia',
@@ -495,19 +495,19 @@ const countries = [
     countryName: 'Greenland',
     population: '56375',
     capital: 'Nuuk',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Grenada',
     population: '107818',
     capital: "St. George's",
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Guadeloupe',
     population: '443000',
     capital: 'Basse-Terre',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Guam',
@@ -519,7 +519,7 @@ const countries = [
     countryName: 'Guatemala',
     population: '13550440',
     capital: 'Guatemala City',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Guernsey',
@@ -543,19 +543,19 @@ const countries = [
     countryName: 'Guyana',
     population: '748486',
     capital: 'Georgetown',
-    continentName: 'South America'
+    continentName: 'South_America'
   },
   {
     countryName: 'Haiti',
     population: '9648924',
     capital: 'Port-au-Prince',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Honduras',
     population: '7989415',
     capital: 'Tegucigalpa',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Hong Kong',
@@ -633,7 +633,7 @@ const countries = [
     countryName: 'Jamaica',
     population: '2847232',
     capital: 'Kingston',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Japan',
@@ -801,7 +801,7 @@ const countries = [
     countryName: 'Martinique',
     population: '432900',
     capital: 'Fort-de-France',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Mauritania',
@@ -825,7 +825,7 @@ const countries = [
     countryName: 'Mexico',
     population: '112468855',
     capital: 'Mexico City',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Micronesia',
@@ -861,7 +861,7 @@ const countries = [
     countryName: 'Montserrat',
     population: '9341',
     capital: 'Plymouth',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Morocco',
@@ -921,7 +921,7 @@ const countries = [
     countryName: 'Nicaragua',
     population: '5995928',
     capital: 'Managua',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Niger',
@@ -993,7 +993,7 @@ const countries = [
     countryName: 'Panama',
     population: '3410676',
     capital: 'Panama City',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Papua New Guinea',
@@ -1005,13 +1005,13 @@ const countries = [
     countryName: 'Paraguay',
     population: '6375830',
     capital: 'Asunción',
-    continentName: 'South America'
+    continentName: 'South_America'
   },
   {
     countryName: 'Peru',
     population: '29907003',
     capital: 'Lima',
-    continentName: 'South America'
+    continentName: 'South_America'
   },
   {
     countryName: 'Philippines',
@@ -1041,7 +1041,7 @@ const countries = [
     countryName: 'Puerto Rico',
     population: '3916632',
     capital: 'San Juan',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Qatar',
@@ -1083,7 +1083,7 @@ const countries = [
     countryName: 'Saint Barthélemy',
     population: '8450',
     capital: 'Gustavia',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Saint Helena',
@@ -1095,31 +1095,31 @@ const countries = [
     countryName: 'Saint Kitts and Nevis',
     population: '51134',
     capital: 'Basseterre',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Saint Lucia',
     population: '160922',
     capital: 'Castries',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Saint Martin',
     population: '35925',
     capital: 'Marigot',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Saint Pierre and Miquelon',
     population: '7012',
     capital: 'Saint-Pierre',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Saint Vincent and the Grenadines',
     population: '104217',
     capital: 'Kingstown',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Samoa',
@@ -1173,7 +1173,7 @@ const countries = [
     countryName: 'Sint Maarten',
     population: '37429',
     capital: 'Philipsburg',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Slovakia',
@@ -1239,7 +1239,7 @@ const countries = [
     countryName: 'Suriname',
     population: '492829',
     capital: 'Paramaribo',
-    continentName: 'South America'
+    continentName: 'South_America'
   },
   {
     countryName: 'Svalbard and Jan Mayen',
@@ -1323,7 +1323,7 @@ const countries = [
     countryName: 'Trinidad and Tobago',
     population: '1328019',
     capital: 'Port of Spain',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Tunisia',
@@ -1347,7 +1347,7 @@ const countries = [
     countryName: 'Turks and Caicos Islands',
     population: '20556',
     capital: 'Cockburn Town',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Tuvalu',
@@ -1365,7 +1365,7 @@ const countries = [
     countryName: 'U.S. Virgin Islands',
     population: '108708',
     capital: 'Charlotte Amalie',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Uganda',
@@ -1395,13 +1395,13 @@ const countries = [
     countryName: 'United States',
     population: '310232863',
     capital: 'Washington',
-    continentName: 'North America'
+    continentName: 'North_America'
   },
   {
     countryName: 'Uruguay',
     population: '3477000',
     capital: 'Montevideo',
-    continentName: 'South America'
+    continentName: 'South_America'
   },
   {
     countryName: 'Uzbekistan',
@@ -1425,7 +1425,7 @@ const countries = [
     countryName: 'Venezuela',
     population: '27223228',
     capital: 'Caracas',
-    continentName: 'South America'
+    continentName: 'South_America'
   },
   {
     countryName: 'Vietnam',

@@ -10,11 +10,11 @@ routes.get('/countries/:countryName', (req, res, next) => {
   const countryName = req.params.countryName
   const country = countries.find(country => country.countryName === countryName)
 
-  if (country) {
-    return res.json(country)
-  } else {
+  if (country.length === 0) {
     res.send({ message: 'Not Found' }).statusCode(404)
     next('route')
+  } else {
+    return res.json(country)
   }
 })
 
@@ -22,10 +22,10 @@ routes.get('/countries/:continentName', (req, res) => {
   const continentName = req.params.continentName
   const country = countries.filter(country => country.continentName === continentName)
 
-  if (country) {
-    return res.json(country)
-  } else {
+  if (country.length === 0) {
     res.send({ message: 'Not Found' }).statusCode(404)
+  } else {
+    res.json(country)
   }
 })
 
